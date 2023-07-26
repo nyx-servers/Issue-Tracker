@@ -1,0 +1,35 @@
+name: Feature Request
+description: Request a new feature to be added to NYX servers
+title: "[Feature]: "
+labels: ["feature", "pending"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. Discord jamessc0tt
+    validations:
+      required: false
+  - type: textarea
+    id: request-details
+    attributes:
+      label: What should we add?
+      description: Please give a detailed description of the features you wish to be implemented.
+      placeholder: ""
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Parties
+      description: Please inform us of who will be affected by the change (Example: Police, EMS, Staff, Gangs, Civilians, Everyone)
+      placeholder: ""
+    validations:
+      required: true
