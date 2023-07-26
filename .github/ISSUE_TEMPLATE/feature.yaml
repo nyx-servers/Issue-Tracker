@@ -21,8 +21,7 @@ body:
     id: request-details
     attributes:
       label: What should we add?
-      description: Please give a detailed description of the features you wish to be implemented.
-      placeholder: ""
+      description: "Please give a detailed description of the features you wish to be implemented."
     validations:
       required: true
   - type: textarea
@@ -30,6 +29,5 @@ body:
     attributes:
       label: Relevant Parties
       description: "Please inform us of who will be affected by the change (Example: Police, EMS, Staff, Gangs, Civilians, Everyone)"
-      placeholder: ""
     validations:
       required: true
