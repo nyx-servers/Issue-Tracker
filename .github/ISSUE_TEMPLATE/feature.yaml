@@ -29,7 +29,7 @@ body:
     id: logs
     attributes:
       label: Relevant Parties
-      description: Please inform us of who will be affected by the change (Example: Police, EMS, Staff, Gangs, Civilians, Everyone)
+      description: "Please inform us of who will be affected by the change (Example: Police, EMS, Staff, Gangs, Civilians, Everyone)"
       placeholder: ""
     validations:
       required: true
