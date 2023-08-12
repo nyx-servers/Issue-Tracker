@@ -35,13 +35,13 @@ body:
   - type: dropdown
     id: severity
     attributes:
-      label: Bug Severity
-      description: Please select the severity of this issue
+      label: Severity impact
+      description: Please choose the severity of the impact of this issue.
       multiple: false
       options:
-        - '🟢 None'
-        - '🟡 Low'
-        - '🟠 Medium'
-        - '🔴 High'
+        - 'Severity:None'
+        - 'Severity:Low'
+        - 'Severity:Medium'
+        - 'Severity:High'
     validations:
       required: true
