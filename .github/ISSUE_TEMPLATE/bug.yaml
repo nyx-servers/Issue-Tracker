@@ -32,3 +32,16 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Bug Severity
+      description: Please select the severity of this issue
+      multiple: false
+      options:
+        - '🟢 None'
+        - '🟡 Low'
+        - '🟠 Medium'
+        - '🔴 High'
+    validations:
+      required: true
