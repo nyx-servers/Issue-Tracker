@@ -1,0 +1,13 @@
+policy:
+  - section:
+      - id: [severities]
+        block-list: ['None', 'Other']
+        label:
+          - name: 'Severity:None'
+            keys: ['🟢 None']
+          - name: 'Severity:Low'
+            keys: ['🟡 Low']
+          - name: 'Severity:Medium'
+            keys: ['🟠 Medium']
+          - name: 'Severity:High'
+            keys: ['🔴 High']
