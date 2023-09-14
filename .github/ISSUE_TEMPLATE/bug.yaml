@@ -32,6 +32,12 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+  - type: input
+    id: region
+    attributes:
+      label: Region
+      description: Which region was you playing on when this happened?
+      render: shell
   - type: dropdown
     id: severity
     attributes:
