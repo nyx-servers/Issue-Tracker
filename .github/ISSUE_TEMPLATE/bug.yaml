@@ -37,7 +37,6 @@ body:
     attributes:
       label: Region
       description: Which region was you playing on when this happened?
-      render: shell
   - type: dropdown
     id: severity
     attributes:
